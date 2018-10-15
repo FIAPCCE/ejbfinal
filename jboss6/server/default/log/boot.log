@@ -1,0 +1,402 @@
+09:05:14,574 INFO  [AbstractJBossASServerBase] Server Configuration:
+
+	JBOSS_HOME URL: file:/C:/Users/onedo/Desktop/EJB/jboss6/
+	Bootstrap: $JBOSS_HOME\server/default/conf/bootstrap.xml
+	Common Base: $JBOSS_HOME\common/
+	Common Library: $JBOSS_HOME\common/lib/
+	Server Name: default
+	Server Base: $JBOSS_HOME\server/
+	Server Library: $JBOSS_HOME\server/default/lib/
+	Server Config: $JBOSS_HOME\server/default/conf/
+	Server Home: $JBOSS_HOME\server/default/
+	Server Data: $JBOSS_HOME\server/default/data/
+	Server Log: $JBOSS_HOME\server/default/log/
+	Server Temp: $JBOSS_HOME\server/default/tmp/
+
+09:05:14,583 INFO  [AbstractServer] Starting: JBossAS [6.1.0.Final "Neo"]
+09:05:15,325 INFO  [ServerInfo] Java version: 1.8.0_181,Oracle Corporation
+09:05:15,326 INFO  [ServerInfo] Java Runtime: Java(TM) SE Runtime Environment (build 1.8.0_181-b13)
+09:05:15,331 INFO  [ServerInfo] Java VM: Java HotSpot(TM) 64-Bit Server VM 25.181-b13,Oracle Corporation
+09:05:15,333 INFO  [ServerInfo] OS-System: Windows 10 10.0,amd64
+09:05:15,334 INFO  [ServerInfo] VM arguments: -Dprogram.name=run.bat -Dlogging.configuration=file:logging.properties -Xms128M -Xmx512M -XX:MaxPermSize=256M -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Dorg.jboss.resolver.warning=true -Djava.endorsed.dirs=C:\Users\onedo\Desktop\EJB\jboss6\lib\endorsed 
+09:05:15,335 DEBUG [ServerInfo] Full System Properties Dump
+09:05:15,335 DEBUG [ServerInfo]     awt.toolkit: sun.awt.windows.WToolkit
+09:05:15,335 DEBUG [ServerInfo]     file.encoding: Cp1252
+09:05:15,335 DEBUG [ServerInfo]     file.encoding.pkg: sun.io
+09:05:15,335 DEBUG [ServerInfo]     file.separator: \
+09:05:15,335 DEBUG [ServerInfo]     java.awt.graphicsenv: sun.awt.Win32GraphicsEnvironment
+09:05:15,335 DEBUG [ServerInfo]     java.awt.printerjob: sun.awt.windows.WPrinterJob
+09:05:15,335 DEBUG [ServerInfo]     java.class.path: C:\Users\onedo\Desktop\EJB\jboss6\bin\run.jar
+09:05:15,336 DEBUG [ServerInfo]     java.class.version: 52.0
+09:05:15,336 DEBUG [ServerInfo]     java.endorsed.dirs: C:\Users\onedo\Desktop\EJB\jboss6\lib\endorsed
+09:05:15,336 DEBUG [ServerInfo]     java.ext.dirs: C:\Program Files\Java\jre1.8.0_181\lib\ext;C:\WINDOWS\Sun\Java\lib\ext
+09:05:15,336 DEBUG [ServerInfo]     java.home: C:\Program Files\Java\jre1.8.0_181
+09:05:15,336 DEBUG [ServerInfo]     java.io.tmpdir: C:\Users\onedo\AppData\Local\Temp\
+09:05:15,336 DEBUG [ServerInfo]     java.library.path: C:\Program Files\Java\jre1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\Programas\EasyPHP-DevServer-14.1VC11\binaries\php\php_runningversion;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;D:\FIAP\PERSISTÊNCIA EM JAVA\apache-maven-3.5.3-bin\apache-maven-3.5.3\bin;C:\Program Files\Java\jre1.8.0_181\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;D:\Programas\node\;C:\Users\onedo\AppData\Local\Microsoft\WindowsApps;C:\Users\onedo\AppData\Local\GitHubDesktop\bin;C:\Users\onedo\AppData\Local\Microsoft\WindowsApps;C:\Users\onedo\AppData\Roaming\npm;C:\Users\onedo\AppData\Local\Programs\Microsoft VS Code\bin;.
+09:05:15,336 DEBUG [ServerInfo]     java.protocol.handler.pkgs: org.jboss.net.protocol|org.jboss.vfs.protocol
+09:05:15,336 DEBUG [ServerInfo]     java.rmi.server.RMIClassLoaderSpi: org.jboss.system.JBossRMIClassLoader
+09:05:15,336 DEBUG [ServerInfo]     java.rmi.server.hostname: 127.0.0.1
+09:05:15,336 DEBUG [ServerInfo]     java.runtime.name: Java(TM) SE Runtime Environment
+09:05:15,337 DEBUG [ServerInfo]     java.runtime.version: 1.8.0_181-b13
+09:05:15,337 DEBUG [ServerInfo]     java.specification.name: Java Platform API Specification
+09:05:15,337 DEBUG [ServerInfo]     java.specification.vendor: Oracle Corporation
+09:05:15,337 DEBUG [ServerInfo]     java.specification.version: 1.8
+09:05:15,337 DEBUG [ServerInfo]     java.util.logging.manager: org.jboss.logmanager.LogManager
+09:05:15,337 DEBUG [ServerInfo]     java.vendor: Oracle Corporation
+09:05:15,337 DEBUG [ServerInfo]     java.vendor.url: http://java.oracle.com/
+09:05:15,337 DEBUG [ServerInfo]     java.vendor.url.bug: http://bugreport.sun.com/bugreport/
+09:05:15,337 DEBUG [ServerInfo]     java.version: 1.8.0_181
+09:05:15,337 DEBUG [ServerInfo]     java.vm.info: mixed mode
+09:05:15,337 DEBUG [ServerInfo]     java.vm.name: Java HotSpot(TM) 64-Bit Server VM
+09:05:15,337 DEBUG [ServerInfo]     java.vm.specification.name: Java Virtual Machine Specification
+09:05:15,338 DEBUG [ServerInfo]     java.vm.specification.vendor: Oracle Corporation
+09:05:15,338 DEBUG [ServerInfo]     java.vm.specification.version: 1.8
+09:05:15,338 DEBUG [ServerInfo]     java.vm.vendor: Oracle Corporation
+09:05:15,338 DEBUG [ServerInfo]     java.vm.version: 25.181-b13
+09:05:15,338 DEBUG [ServerInfo]     javax.management.builder.initial: org.jboss.mx.server.MBeanServerBuilderImpl
+09:05:15,338 DEBUG [ServerInfo]     jboss.bind.address: 127.0.0.1
+09:05:15,338 DEBUG [ServerInfo]     jboss.boot.server.log.dir: C:\Users\onedo\Desktop\EJB\jboss6\server\default\log
+09:05:15,338 DEBUG [ServerInfo]     jboss.bootstrap.home.url: file:/C:/Users/onedo/Desktop/EJB/jboss6/server/default/conf/
+09:05:15,338 DEBUG [ServerInfo]     jboss.bootstrap.name: bootstrap.xml
+09:05:15,338 DEBUG [ServerInfo]     jboss.bootstrap.url: file:/C:/Users/onedo/Desktop/EJB/jboss6/server/default/conf/bootstrap.xml
+09:05:15,338 DEBUG [ServerInfo]     jboss.common.base.url: file:/C:/Users/onedo/Desktop/EJB/jboss6/common/
+09:05:15,338 DEBUG [ServerInfo]     jboss.common.lib.url: file:/C:/Users/onedo/Desktop/EJB/jboss6/common/lib/
+09:05:15,339 DEBUG [ServerInfo]     jboss.home: C:\Users\onedo\Desktop\EJB\jboss6
+09:05:15,339 DEBUG [ServerInfo]     jboss.home.dir: C:\Users\onedo\Desktop\EJB\jboss6
+09:05:15,339 DEBUG [ServerInfo]     jboss.home.url: file:/C:/Users/onedo/Desktop/EJB/jboss6/
+09:05:15,339 DEBUG [ServerInfo]     jboss.host.name: desktop-tm9j16n
+09:05:15,339 DEBUG [ServerInfo]     jboss.lib.url: file:/C:/Users/onedo/Desktop/EJB/jboss6/lib/
+09:05:15,339 DEBUG [ServerInfo]     jboss.native.dir: C:\Users\onedo\Desktop\EJB\jboss6\server\default\tmp\native
+09:05:15,339 DEBUG [ServerInfo]     jboss.native.load: false
+09:05:15,339 DEBUG [ServerInfo]     jboss.node.name: desktop-tm9j16n
+09:05:15,339 DEBUG [ServerInfo]     jboss.partition.name: DefaultPartition
+09:05:15,339 DEBUG [ServerInfo]     jboss.platform.mbeanserver: true
+09:05:15,339 DEBUG [ServerInfo]     jboss.qualified.host.name: desktop-tm9j16n
+09:05:15,339 DEBUG [ServerInfo]     jboss.server.base.dir: C:\Users\onedo\Desktop\EJB\jboss6\server
+09:05:15,340 DEBUG [ServerInfo]     jboss.server.base.url: file:/C:/Users/onedo/Desktop/EJB/jboss6/server/
+09:05:15,340 DEBUG [ServerInfo]     jboss.server.config.url: file:/C:/Users/onedo/Desktop/EJB/jboss6/server/default/conf/
+09:05:15,340 DEBUG [ServerInfo]     jboss.server.data.dir: C:\Users\onedo\Desktop\EJB\jboss6\server\default\data
+09:05:15,340 DEBUG [ServerInfo]     jboss.server.home.dir: C:\Users\onedo\Desktop\EJB\jboss6\server\default
+09:05:15,340 DEBUG [ServerInfo]     jboss.server.home.url: file:/C:/Users/onedo/Desktop/EJB/jboss6/server/default/
+09:05:15,340 DEBUG [ServerInfo]     jboss.server.lib.url: file:/C:/Users/onedo/Desktop/EJB/jboss6/server/default/lib/
+09:05:15,340 DEBUG [ServerInfo]     jboss.server.log.dir: C:\Users\onedo\Desktop\EJB\jboss6\server\default\log
+09:05:15,340 DEBUG [ServerInfo]     jboss.server.name: default
+09:05:15,340 DEBUG [ServerInfo]     jboss.server.temp.dir: C:\Users\onedo\Desktop\EJB\jboss6\server\default\tmp
+09:05:15,340 DEBUG [ServerInfo]     jboss.vfs.forceCopy: true
+09:05:15,340 DEBUG [ServerInfo]     jbossmx.loader.repository.class: org.jboss.mx.loading.UnifiedLoaderRepository3
+09:05:15,340 DEBUG [ServerInfo]     jgroups.bind_addr: 127.0.0.1
+09:05:15,340 DEBUG [ServerInfo]     line.separator: 
+
+09:05:15,341 DEBUG [ServerInfo]     log4j.defaultInitOverride: true
+09:05:15,341 DEBUG [ServerInfo]     logging.configuration: file:logging.properties
+09:05:15,341 DEBUG [ServerInfo]     org.jboss.deployers.spi.deployer.matchers.NameIgnoreMechanism: org.jboss.deployers.spi.deployer.helpers.DummyNameIgnoreMechanism
+09:05:15,341 DEBUG [ServerInfo]     org.jboss.logging.Logger.pluginClass: org.jboss.logging.logmanager.LoggerPluginImpl
+09:05:15,341 DEBUG [ServerInfo]     org.jboss.reflect.spi.TypeInfoFactory: org.jboss.reflect.plugins.introspection.IntrospectionTypeInfoFactory
+09:05:15,341 DEBUG [ServerInfo]     org.jboss.resolver.warning: true
+09:05:15,341 DEBUG [ServerInfo]     os.arch: amd64
+09:05:15,341 DEBUG [ServerInfo]     os.name: Windows 10
+09:05:15,341 DEBUG [ServerInfo]     os.version: 10.0
+09:05:15,341 DEBUG [ServerInfo]     path.separator: ;
+09:05:15,341 DEBUG [ServerInfo]     program.name: run.bat
+09:05:15,341 DEBUG [ServerInfo]     sun.arch.data.model: 64
+09:05:15,341 DEBUG [ServerInfo]     sun.boot.class.path: C:\Users\onedo\Desktop\EJB\jboss6\lib\endorsed\activation.jar;C:\Users\onedo\Desktop\EJB\jboss6\lib\endorsed\jboss-annotations-api_1.1_spec.jar;C:\Users\onedo\Desktop\EJB\jboss6\lib\endorsed\jboss-jaxb-api_2.2_spec.jar;C:\Users\onedo\Desktop\EJB\jboss6\lib\endorsed\jboss-jaxws-api_2.2_spec.jar;C:\Users\onedo\Desktop\EJB\jboss6\lib\endorsed\jbossws-cxf-factories.jar;C:\Users\onedo\Desktop\EJB\jboss6\lib\endorsed\stax-api.jar;C:\Program Files\Java\jre1.8.0_181\lib\resources.jar;C:\Program Files\Java\jre1.8.0_181\lib\rt.jar;C:\Program Files\Java\jre1.8.0_181\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_181\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_181\lib\jce.jar;C:\Program Files\Java\jre1.8.0_181\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_181\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_181\classes
+09:05:15,342 DEBUG [ServerInfo]     sun.boot.library.path: C:\Program Files\Java\jre1.8.0_181\bin
+09:05:15,342 DEBUG [ServerInfo]     sun.cpu.endian: little
+09:05:15,342 DEBUG [ServerInfo]     sun.cpu.isalist: amd64
+09:05:15,342 DEBUG [ServerInfo]     sun.desktop: windows
+09:05:15,342 DEBUG [ServerInfo]     sun.io.unicode.encoding: UnicodeLittle
+09:05:15,342 DEBUG [ServerInfo]     sun.java.command: org.jboss.Main
+09:05:15,342 DEBUG [ServerInfo]     sun.java.launcher: SUN_STANDARD
+09:05:15,342 DEBUG [ServerInfo]     sun.jnu.encoding: Cp1252
+09:05:15,342 DEBUG [ServerInfo]     sun.management.compiler: HotSpot 64-Bit Tiered Compilers
+09:05:15,342 DEBUG [ServerInfo]     sun.os.patch.level: 
+09:05:15,342 DEBUG [ServerInfo]     sun.rmi.dgc.client.gcInterval: 3600000
+09:05:15,342 DEBUG [ServerInfo]     sun.rmi.dgc.server.gcInterval: 3600000
+09:05:15,342 DEBUG [ServerInfo]     sun.stderr.encoding: cp850
+09:05:15,342 DEBUG [ServerInfo]     sun.stdout.encoding: cp850
+09:05:15,343 DEBUG [ServerInfo]     user.country: BR
+09:05:15,343 DEBUG [ServerInfo]     user.dir: C:\Users\onedo\Desktop\EJB\jboss6\bin
+09:05:15,343 DEBUG [ServerInfo]     user.home: C:\Users\onedo
+09:05:15,343 DEBUG [ServerInfo]     user.language: pt
+09:05:15,343 DEBUG [ServerInfo]     user.name: onedo
+09:05:15,343 DEBUG [ServerInfo]     user.script: 
+09:05:15,343 DEBUG [ServerInfo]     user.timezone: America/Sao_Paulo
+09:05:15,343 DEBUG [ServerInfo]     user.variant: 
+09:05:15,343 DEBUG [ServerInfo]     xb.builder.repeatableParticleHandlers: false
+09:05:15,343 DEBUG [ServerInfo]     xb.builder.useUnorderedSequence: true
+09:05:15,357 INFO  [JMXKernel] Legacy JMX core initialized
+09:05:18,514 INFO  [AbstractServerConfig] JBoss Web Services - Stack CXF Server 3.4.1.GA
+09:05:18,916 INFO  [JSFImplManagementDeployer] Initialized 3 JSF configurations: [Mojarra-1.2, MyFaces-2.0, Mojarra-2.0]
+09:05:21,638 INFO  [PersistenceUnitValueMetaData] iDependOn persistence.unit:unitName=jboss-ejb3-timerservice-mk2.jar#timerdb
+09:05:23,586 ADVERTÊNCIA [FileConfigurationParser] AIO wasn't located on this platform, it will fall back to using pure Java NIO. If your platform is Linux, install LibAIO to enable the AIO journal
+09:05:23,686 INFO  [JMXConnector] starting JMXConnector on host 127.0.0.1:1090
+09:05:23,757 INFO  [MailService] Mail Service bound to java:/Mail
+09:05:24,235 INFORMAÇÕES [HornetQServerImpl] live server is starting with configuration HornetQ Configuration (clustered=false,backup=false,sharedStore=true,journalDirectory=C:\Users\onedo\Desktop\EJB\jboss6\server\default\data/hornetq/journal,bindingsDirectory=C:\Users\onedo\Desktop\EJB\jboss6\server\default\data/hornetq/bindings,largeMessagesDirectory=C:\Users\onedo\Desktop\EJB\jboss6\server\default\data/hornetq/largemessages,pagingDirectory=C:\Users\onedo\Desktop\EJB\jboss6\server\default\data/hornetq/paging)
+09:05:24,236 INFORMAÇÕES [HornetQServerImpl] Waiting to obtain live lock
+09:05:24,292 INFO  [JournalStorageManager] Using NIO Journal
+09:05:24,309 ADVERTÊNCIA [HornetQServerImpl] Security risk! It has been detected that the cluster admin user and password have not been changed from the installation default. Please see the HornetQ user guide, cluster chapter, for instructions on how to do this.
+09:05:24,390 INFO  [FileLockNodeManager] Waiting to obtain live lock
+09:05:24,391 INFO  [FileLockNodeManager] Live Server Obtained live lock
+09:05:24,899 INFO  [NettyAcceptor] Started Netty Acceptor version 3.2.3.Final-r${buildNumber} 127.0.0.1:5445 for CORE protocol
+09:05:24,901 INFO  [NettyAcceptor] Started Netty Acceptor version 3.2.3.Final-r${buildNumber} 127.0.0.1:5455 for CORE protocol
+09:05:24,909 INFORMAÇÕES [HornetQServerImpl] Server is now live
+09:05:24,909 INFORMAÇÕES [HornetQServerImpl] HornetQ Server version 2.2.5.Final (HQ_2_2_5_FINAL_AS7, 121) [8b66d7ce-7218-11e1-8201-005056c00008] started
+09:05:24,935 INFO  [WebService] Using RMI server codebase: http://127.0.0.1:8083/
+09:05:25,791 INFO  [jbossatx] ARJUNA-32010 JBossTS Recovery Service (tag: JBOSSTS_4_14_0_Final) - JBoss Inc.
+09:05:25,800 INFO  [arjuna] ARJUNA-12324 Start RecoveryActivators
+09:05:25,823 INFO  [arjuna] ARJUNA-12296 ExpiredEntryMonitor running at Seg, 15 out 2018 09:05:25
+09:05:25,875 INFO  [arjuna] ARJUNA-12310 Recovery manager listening on endpoint 127.0.0.1:4712
+09:05:25,875 INFO  [arjuna] ARJUNA-12344 RecoveryManagerImple is ready on port 4712
+09:05:25,877 INFO  [jbossatx] ARJUNA-32013 Starting transaction recovery manager
+09:05:25,886 INFO  [arjuna] ARJUNA-12163 Starting service com.arjuna.ats.arjuna.recovery.ActionStatusService on port 4713
+09:05:25,887 INFO  [arjuna] ARJUNA-12337 TransactionStatusManagerItem host: 127.0.0.1 port: 4713
+09:05:25,892 INFO  [arjuna] ARJUNA-12170 TransactionStatusManager started on port 4713 and host 127.0.0.1 with service com.arjuna.ats.arjuna.recovery.ActionStatusService
+09:05:25,914 INFO  [jbossatx] ARJUNA-32017 JBossTS Transaction Service (JTA version - tag: JBOSSTS_4_14_0_Final) - JBoss Inc.
+09:05:25,948 INFO  [arjuna] ARJUNA-12202 registering bean jboss.jta:type=ObjectStore.
+09:05:26,091 INFO  [AprLifecycleListener] The Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jre1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\Programas\EasyPHP-DevServer-14.1VC11\binaries\php\php_runningversion;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;D:\FIAP\PERSISTÊNCIA EM JAVA\apache-maven-3.5.3-bin\apache-maven-3.5.3\bin;C:\Program Files\Java\jre1.8.0_181\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;D:\Programas\node\;C:\Users\onedo\AppData\Local\Microsoft\WindowsApps;C:\Users\onedo\AppData\Local\GitHubDesktop\bin;C:\Users\onedo\AppData\Local\Microsoft\WindowsApps;C:\Users\onedo\AppData\Roaming\npm;C:\Users\onedo\AppData\Local\Programs\Microsoft VS Code\bin;.
+09:05:26,203 INFO  [ModClusterService] Initializing mod_cluster 1.1.0.Final
+09:05:26,212 INFO  [TomcatDeployment] deploy, ctxPath=/invoker
+09:05:26,470 INFO  [RARDeployment] Required license terms exist, view vfs:/C:/Users/onedo/Desktop/EJB/jboss6/server/default/deploy/jboss-local-jdbc.rar/META-INF/ra.xml
+09:05:26,480 INFO  [RARDeployment] Required license terms exist, view vfs:/C:/Users/onedo/Desktop/EJB/jboss6/server/default/deploy/jboss-xa-jdbc.rar/META-INF/ra.xml
+09:05:26,485 INFO  [RARDeployment] Required license terms exist, view vfs:/C:/Users/onedo/Desktop/EJB/jboss6/server/default/deploy/jms-ra.rar/META-INF/ra.xml
+09:05:26,495 INFO  [HornetQResourceAdapter] HornetQ resource adaptor started
+09:05:26,499 INFO  [RARDeployment] Required license terms exist, view vfs:/C:/Users/onedo/Desktop/EJB/jboss6/server/default/deploy/mail-ra.rar/META-INF/ra.xml
+09:05:26,509 INFO  [RARDeployment] Required license terms exist, view vfs:/C:/Users/onedo/Desktop/EJB/jboss6/server/default/deploy/quartz-ra.rar/META-INF/ra.xml
+09:05:26,560 INFO  [SimpleThreadPool] Job execution threads will use class loader of thread: Thread-2
+09:05:26,581 INFO  [SchedulerSignalerImpl] Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+09:05:26,581 INFO  [QuartzScheduler] Quartz Scheduler v.1.8.3 created.
+09:05:26,584 INFO  [RAMJobStore] RAMJobStore initialized.
+09:05:26,587 INFO  [QuartzScheduler] Scheduler meta-data: Quartz Scheduler (v1.8.3) 'JBossQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+09:05:26,587 INFO  [StdSchedulerFactory] Quartz scheduler 'JBossQuartzScheduler' initialized from an externally opened InputStream.
+09:05:26,587 INFO  [StdSchedulerFactory] Quartz scheduler version: 1.8.3
+09:05:26,588 INFO  [QuartzScheduler] Scheduler JBossQuartzScheduler_$_NON_CLUSTERED started.
+09:05:26,944 INFO  [ConnectionFactoryBindingService] Bound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=DefaultDS' to JNDI name 'java:DefaultDS'
+09:05:27,069 INFO  [PersistenceUnitDeployment] Starting persistence unit persistence.unit:unitName=jboss-ejb3-timerservice-mk2.jar#timerdb
+09:05:27,299 INFO  [Version] Hibernate Commons Annotations 3.2.0.Final
+09:05:27,313 INFO  [Environment] Hibernate 3.6.6.Final
+09:05:27,317 INFO  [Environment] hibernate.properties not found
+09:05:27,325 INFO  [Environment] Bytecode provider name : javassist
+09:05:27,332 INFO  [Environment] using JDK 1.4 java.sql.Timestamp handling
+09:05:27,518 INFO  [Version] Hibernate EntityManager 3.6.6.Final
+09:05:27,560 INFO  [Ejb3Configuration] Processing PersistenceUnitInfo [
+	name: timerdb
+	...]
+09:05:27,622 WARN  [Ejb3Configuration] Persistence provider caller does not implement the EJB3 spec correctly.PersistenceUnitInfo.getNewTempClassLoader() is null.
+09:05:27,718 INFO  [AnnotationBinder] Binding entity from annotated class: org.jboss.ejb3.timerservice.mk2.persistence.TimerEntity
+09:05:27,780 INFO  [EntityBinder] Bind entity org.jboss.ejb3.timerservice.mk2.persistence.TimerEntity on table timer
+09:05:27,854 INFO  [AnnotationBinder] Binding entity from annotated class: org.jboss.ejb3.timerservice.mk2.persistence.CalendarTimerEntity
+09:05:27,858 INFO  [EntityBinder] Bind entity org.jboss.ejb3.timerservice.mk2.persistence.CalendarTimerEntity on table calendar_timer
+09:05:27,884 INFO  [AnnotationBinder] Binding entity from annotated class: org.jboss.ejb3.timerservice.mk2.persistence.TimeoutMethod
+09:05:27,893 INFO  [EntityBinder] Bind entity org.jboss.ejb3.timerservice.mk2.persistence.TimeoutMethod on table timeout_method
+09:05:27,949 INFO  [Version] Hibernate Validator 3.1.0.GA
+09:05:27,991 INFO  [Version] Hibernate Validator 4.1.0.Final
+09:05:28,003 INFO  [DefaultTraversableResolver] Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+09:05:28,102 INFO  [DefaultTraversableResolver] Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+09:05:28,107 INFO  [DefaultTraversableResolver] Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+09:05:28,115 INFO  [HibernateSearchEventListenerRegister] Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+09:05:28,126 INFO  [ConnectionProviderFactory] Initializing connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+09:05:28,131 INFO  [InjectedDataSourceConnectionProvider] Using provided datasource
+09:05:28,162 INFO  [Dialect] Using dialect: org.hibernate.dialect.HSQLDialect
+09:05:28,179 INFO  [JdbcSupportLoader] Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+09:05:28,179 INFO  [SettingsFactory] Database ->
+       name : HSQL Database Engine
+    version : 1.8.0
+      major : 1
+      minor : 8
+09:05:28,179 INFO  [SettingsFactory] Driver ->
+       name : HSQL Database Engine Driver
+    version : 1.8.0
+      major : 1
+      minor : 8
+09:05:28,181 INFO  [TransactionFactoryFactory] Transaction strategy: org.hibernate.ejb.transaction.JoinableCMTTransactionFactory
+09:05:28,188 INFO  [TransactionManagerLookupFactory] instantiating TransactionManagerLookup: org.hibernate.transaction.JBossTransactionManagerLookup
+09:05:28,190 INFO  [TransactionManagerLookupFactory] instantiated TransactionManagerLookup
+09:05:28,191 INFO  [SettingsFactory] Automatic flush during beforeCompletion(): disabled
+09:05:28,191 INFO  [SettingsFactory] Automatic session close at end of transaction: disabled
+09:05:28,192 INFO  [SettingsFactory] JDBC batch size: 15
+09:05:28,192 INFO  [SettingsFactory] JDBC batch updates for versioned data: disabled
+09:05:28,195 INFO  [SettingsFactory] Scrollable result sets: enabled
+09:05:28,195 INFO  [SettingsFactory] JDBC3 getGeneratedKeys(): disabled
+09:05:28,197 INFO  [SettingsFactory] Connection release mode: auto
+09:05:28,199 INFO  [SettingsFactory] Default batch fetch size: 1
+09:05:28,199 INFO  [SettingsFactory] Generate SQL with comments: disabled
+09:05:28,200 INFO  [SettingsFactory] Order SQL updates by primary key: disabled
+09:05:28,200 INFO  [SettingsFactory] Order SQL inserts for batching: disabled
+09:05:28,200 INFO  [SettingsFactory] Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+09:05:28,203 INFO  [ASTQueryTranslatorFactory] Using ASTQueryTranslatorFactory
+09:05:28,204 INFO  [SettingsFactory] Query language substitutions: {}
+09:05:28,207 INFO  [SettingsFactory] JPA-QL strict compliance: enabled
+09:05:28,207 INFO  [SettingsFactory] Second-level cache: enabled
+09:05:28,207 INFO  [SettingsFactory] Query cache: disabled
+09:05:28,208 INFO  [SettingsFactory] Cache region factory : org.hibernate.cache.impl.bridge.RegionFactoryCacheProviderBridge
+09:05:28,214 INFO  [RegionFactoryCacheProviderBridge] Cache provider: org.hibernate.cache.HashtableCacheProvider
+09:05:28,216 INFO  [SettingsFactory] Optimize cache for minimal puts: disabled
+09:05:28,216 INFO  [SettingsFactory] Cache region prefix: persistence.unit:unitName=jboss-ejb3-timerservice-mk2.jar#timerdb
+09:05:28,218 INFO  [SettingsFactory] Structured second-level cache entries: disabled
+09:05:28,225 INFO  [SettingsFactory] Statistics: disabled
+09:05:28,225 INFO  [SettingsFactory] Deleted entity synthetic identifier rollback: disabled
+09:05:28,225 INFO  [SettingsFactory] Default entity-mode: pojo
+09:05:28,229 INFO  [SettingsFactory] Named query checking : enabled
+09:05:28,229 INFO  [SettingsFactory] Check Nullability in Core (should be disabled when Bean Validation is on): disabled
+09:05:28,253 INFO  [SessionFactoryImpl] building session factory
+09:05:28,262 INFO  [BasicTypeRegistry] Type registration [blob] overrides previous : org.hibernate.type.BlobType@6630ccf
+09:05:28,262 INFO  [BasicTypeRegistry] Type registration [java.sql.Blob] overrides previous : org.hibernate.type.BlobType@6630ccf
+09:05:28,263 INFO  [BasicTypeRegistry] Type registration [wrapper_materialized_blob] overrides previous : org.hibernate.type.WrappedMaterializedBlobType@52bcbc74
+09:05:28,263 INFO  [BasicTypeRegistry] Type registration [characters_clob] overrides previous : org.hibernate.type.PrimitiveCharacterArrayClobType@6d08a649
+09:05:28,266 INFO  [BasicTypeRegistry] Type registration [materialized_clob] overrides previous : org.hibernate.type.MaterializedClobType@478a4c11
+09:05:28,266 INFO  [BasicTypeRegistry] Type registration [clob] overrides previous : org.hibernate.type.ClobType@5991355b
+09:05:28,269 INFO  [BasicTypeRegistry] Type registration [java.sql.Clob] overrides previous : org.hibernate.type.ClobType@5991355b
+09:05:28,269 INFO  [BasicTypeRegistry] Type registration [wrapper_characters_clob] overrides previous : org.hibernate.type.CharacterArrayClobType@6ef97d01
+09:05:28,270 INFO  [BasicTypeRegistry] Type registration [materialized_blob] overrides previous : org.hibernate.type.MaterializedBlobType@466ba479
+09:05:28,458 INFO  [SessionFactoryObjectFactory] Factory name: persistence.unit:unitName=jboss-ejb3-timerservice-mk2.jar#timerdb
+09:05:28,460 INFO  [NamingHelper] JNDI InitialContext properties:{java.naming.factory.initial=org.jnp.interfaces.NamingContextFactory, java.naming.factory.url.pkgs=org.jboss.naming:org.jnp.interfaces}
+09:05:28,465 INFO  [SessionFactoryObjectFactory] Bound factory to JNDI name: persistence.unit:unitName=jboss-ejb3-timerservice-mk2.jar#timerdb
+09:05:28,473 INFO  [SchemaUpdate] Running hbm2ddl schema update
+09:05:28,473 INFO  [SchemaUpdate] fetching database metadata
+09:05:28,475 INFO  [SchemaUpdate] updating schema
+09:05:28,477 INFO  [DefaultTraversableResolver] Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+09:05:28,498 INFO  [TableMetadata] table found: PUBLIC.TIMEOUTMETHOD_METHODPARAMS
+09:05:28,498 INFO  [TableMetadata] columns: [timeoutmethod_id, methodparams]
+09:05:28,501 INFO  [TableMetadata] foreign keys: [fkf294c964b7de2d8a]
+09:05:28,502 INFO  [TableMetadata] indexes: [sys_idx_55]
+09:05:28,513 INFO  [TableMetadata] table found: PUBLIC.CALENDAR_TIMER
+09:05:28,514 INFO  [TableMetadata] columns: [timeoutmethod_id, scheduleexprmonth, scheduleexprtimezone, scheduleexprminute, scheduleexprsecond, scheduleexprdayofmonth, scheduleexprenddate, scheduleexprhour, scheduleexprstartdate, scheduleexprdayofweek, scheduleexpryear, id, autotimer]
+09:05:28,519 INFO  [TableMetadata] foreign keys: [fk2b697f04b7de2d8a, fk2b697f04e6e6ef93]
+09:05:28,523 INFO  [TableMetadata] indexes: [sys_idx_57, sys_idx_49, sys_idx_59]
+09:05:28,532 INFO  [TableMetadata] table found: PUBLIC.TIMEOUT_METHOD
+09:05:28,532 INFO  [TableMetadata] columns: [declaringclass, id, methodname]
+09:05:28,532 INFO  [TableMetadata] foreign keys: []
+09:05:28,533 INFO  [TableMetadata] indexes: [sys_idx_51]
+09:05:28,539 INFO  [TableMetadata] table found: PUBLIC.TIMER
+09:05:28,540 INFO  [TableMetadata] columns: [timedobjectid, previousrun, initialdate, id, nextdate, timerstate, repeatinterval, info]
+09:05:28,541 INFO  [TableMetadata] foreign keys: []
+09:05:28,541 INFO  [TableMetadata] indexes: [sys_idx_53]
+09:05:28,543 INFO  [SchemaUpdate] schema update complete
+09:05:28,549 INFO  [NamingHelper] JNDI InitialContext properties:{java.naming.factory.initial=org.jnp.interfaces.NamingContextFactory, java.naming.factory.url.pkgs=org.jboss.naming:org.jnp.interfaces}
+09:05:28,657 INFO  [ConnectionFactoryBindingService] Bound ConnectionManager 'jboss.jca:service=ConnectionFactoryBinding,name=JmsXA' to JNDI name 'java:JmsXA'
+09:05:28,670 INFO  [ConnectionFactoryBindingService] Bound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=AvaliacaoDS' to JNDI name 'java:AvaliacaoDS'
+09:05:28,701 WARN  [InterceptorInfoRepository] EJBTHREE-1852: InterceptorInfoRepository is deprecated
+09:05:28,968 WARN  [DescriptorDeploymentAspect] Spring not available, skipping check for user provided jbossws-cxf.xml / cxf.xml configuration files.
+09:05:28,975 INFO  [MetadataBuilder] Add Service
+ id=AvaliacaoBean
+ address=http://localhost:8080/AvaliacaoEJB/AvaliacaoBean
+ implementor=br.com.fiap.bean.AvaliacaoBean
+ invoker=org.jboss.wsf.stack.cxf.InvokerEJB3
+ serviceName={http://bean.fiap.com.br/}AvaliacaoBeanService
+ portName={http://bean.fiap.com.br/}AvaliacaoBeanPort
+ wsdlLocation=null
+ mtomEnabled=false
+09:05:29,092 INFO  [ReflectionServiceFactoryBean] Creating Service {http://bean.fiap.com.br/}AvaliacaoBeanService from class br.com.fiap.bean.AvaliacaoBean
+09:05:29,437 INFO  [ServerImpl] Setting the server's publish address to be http://localhost:8080/AvaliacaoEJB/AvaliacaoBean
+09:05:29,601 INFO  [WSDLFilePublisher] WSDL published to: file:/C:/Users/onedo/Desktop/EJB/jboss6/server/default/data/wsdl/AvaliacaoEJB.jar/AvaliacaoBeanService.wsdl
+09:05:29,614 INFO  [DefaultEndpointRegistry] register: jboss.ws:context=AvaliacaoEJB,endpoint=AvaliacaoBean
+09:05:29,635 INFO  [JBossASKernel] Created KernelDeployment for: AvaliacaoEJB.jar
+09:05:29,640 INFO  [JBossASKernel] installing bean: jboss.j2ee:jar=AvaliacaoEJB.jar,name=AvaliacaoBean,service=EJB3
+09:05:29,642 INFO  [JBossASKernel]   with dependencies:
+09:05:29,643 INFO  [JBossASKernel]   and demands:
+09:05:29,643 INFO  [JBossASKernel] 	persistence.unit:unitName=AvaliacaoEJB.jar#AvaliacaoDS; Required: Described
+09:05:29,643 INFO  [JBossASKernel] 	jboss-switchboard:appName=AvaliacaoEJB,module=AvaliacaoEJB; Required: Create
+09:05:29,644 INFO  [JBossASKernel] 	jboss-injector:topLevelUnit=AvaliacaoEJB.jar,unit=AvaliacaoEJB.jar,bean=AvaliacaoBean; Required: Described
+09:05:29,644 INFO  [JBossASKernel] 	jboss.ejb:service=EJBTimerService; Required: Described
+09:05:29,644 INFO  [JBossASKernel]   and supplies:
+09:05:29,645 INFO  [JBossASKernel] 	Class:br.com.fiap.Avaliacao
+09:05:29,645 INFO  [JBossASKernel] 	jndi:AvaliacaoBean/remote-br.com.fiap.Avaliacao
+09:05:29,645 INFO  [JBossASKernel] 	jndi:AvaliacaoBean/remote
+09:05:29,646 INFO  [JBossASKernel] 	jndi:AvaliacaoBean
+09:05:29,651 INFO  [JBossASKernel] Added bean(jboss.j2ee:jar=AvaliacaoEJB.jar,name=AvaliacaoBean,service=EJB3) to KernelDeployment of: AvaliacaoEJB.jar
+09:05:29,681 INFO  [PersistenceUnitDeployment] Starting persistence unit persistence.unit:unitName=AvaliacaoEJB.jar#AvaliacaoDS
+09:05:29,682 INFO  [Ejb3Configuration] Processing PersistenceUnitInfo [
+	name: AvaliacaoDS
+	...]
+09:05:29,684 WARN  [Ejb3Configuration] Persistence provider caller does not implement the EJB3 spec correctly.PersistenceUnitInfo.getNewTempClassLoader() is null.
+09:05:29,687 INFO  [AnnotationBinder] Binding entity from annotated class: br.com.fiap.common.Resposta
+09:05:29,688 INFO  [EntityBinder] Bind entity br.com.fiap.common.Resposta on table resposta
+09:05:29,689 INFO  [AnnotationBinder] Binding entity from annotated class: br.com.fiap.common.Questao
+09:05:29,689 INFO  [EntityBinder] Bind entity br.com.fiap.common.Questao on table questao
+09:05:29,691 INFO  [CollectionBinder] Mapping collection: br.com.fiap.common.Questao.respostas -> resposta
+09:05:29,695 INFO  [DefaultTraversableResolver] Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+09:05:29,703 INFO  [DefaultTraversableResolver] Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+09:05:29,707 INFO  [DefaultTraversableResolver] Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+09:05:29,709 INFO  [HibernateSearchEventListenerRegister] Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+09:05:29,710 INFO  [ConnectionProviderFactory] Initializing connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+09:05:29,710 INFO  [InjectedDataSourceConnectionProvider] Using provided datasource
+09:05:29,871 INFO  [Dialect] Using dialect: org.hibernate.dialect.MySQLDialect
+09:05:29,872 INFO  [JdbcSupportLoader] Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+09:05:29,875 INFO  [SettingsFactory] Database ->
+       name : MySQL
+    version : 5.6.15-log
+      major : 5
+      minor : 6
+09:05:29,878 INFO  [SettingsFactory] Driver ->
+       name : MySQL-AB JDBC Driver
+    version : mysql-connector-java-5.1.6 ( Revision: ${svn.Revision} )
+      major : 5
+      minor : 1
+09:05:29,879 INFO  [TransactionFactoryFactory] Transaction strategy: org.hibernate.ejb.transaction.JoinableCMTTransactionFactory
+09:05:29,879 INFO  [TransactionManagerLookupFactory] instantiating TransactionManagerLookup: org.hibernate.transaction.JBossTransactionManagerLookup
+09:05:29,880 INFO  [TransactionManagerLookupFactory] instantiated TransactionManagerLookup
+09:05:29,880 INFO  [SettingsFactory] Automatic flush during beforeCompletion(): disabled
+09:05:29,880 INFO  [SettingsFactory] Automatic session close at end of transaction: disabled
+09:05:29,884 INFO  [SettingsFactory] JDBC batch size: 15
+09:05:29,884 INFO  [SettingsFactory] JDBC batch updates for versioned data: disabled
+09:05:29,886 INFO  [SettingsFactory] Scrollable result sets: enabled
+09:05:29,886 INFO  [SettingsFactory] JDBC3 getGeneratedKeys(): enabled
+09:05:29,887 INFO  [SettingsFactory] Connection release mode: auto
+09:05:29,887 INFO  [SettingsFactory] Maximum outer join fetch depth: 2
+09:05:29,888 INFO  [SettingsFactory] Default batch fetch size: 1
+09:05:29,888 INFO  [SettingsFactory] Generate SQL with comments: disabled
+09:05:29,889 INFO  [SettingsFactory] Order SQL updates by primary key: disabled
+09:05:29,889 INFO  [SettingsFactory] Order SQL inserts for batching: disabled
+09:05:29,890 INFO  [SettingsFactory] Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+09:05:29,890 INFO  [ASTQueryTranslatorFactory] Using ASTQueryTranslatorFactory
+09:05:29,891 INFO  [SettingsFactory] Query language substitutions: {}
+09:05:29,891 INFO  [SettingsFactory] JPA-QL strict compliance: enabled
+09:05:29,891 INFO  [SettingsFactory] Second-level cache: enabled
+09:05:29,892 INFO  [SettingsFactory] Query cache: disabled
+09:05:29,892 INFO  [SettingsFactory] Cache region factory : org.hibernate.cache.impl.bridge.RegionFactoryCacheProviderBridge
+09:05:29,893 INFO  [RegionFactoryCacheProviderBridge] Cache provider: org.hibernate.cache.HashtableCacheProvider
+09:05:29,896 INFO  [SettingsFactory] Optimize cache for minimal puts: disabled
+09:05:29,897 INFO  [SettingsFactory] Cache region prefix: persistence.unit:unitName=AvaliacaoEJB.jar#AvaliacaoDS
+09:05:29,898 INFO  [SettingsFactory] Structured second-level cache entries: disabled
+09:05:29,898 INFO  [SettingsFactory] Statistics: disabled
+09:05:29,899 INFO  [SettingsFactory] Deleted entity synthetic identifier rollback: disabled
+09:05:29,900 INFO  [SettingsFactory] Default entity-mode: pojo
+09:05:29,900 INFO  [SettingsFactory] Named query checking : enabled
+09:05:29,901 INFO  [SettingsFactory] Check Nullability in Core (should be disabled when Bean Validation is on): disabled
+09:05:29,906 INFO  [SessionFactoryImpl] building session factory
+09:05:29,907 INFO  [BasicTypeRegistry] Type registration [blob] overrides previous : org.hibernate.type.BlobType@6630ccf
+09:05:29,907 INFO  [BasicTypeRegistry] Type registration [java.sql.Blob] overrides previous : org.hibernate.type.BlobType@6630ccf
+09:05:29,910 INFO  [BasicTypeRegistry] Type registration [wrapper_materialized_blob] overrides previous : org.hibernate.type.WrappedMaterializedBlobType@52bcbc74
+09:05:29,910 INFO  [BasicTypeRegistry] Type registration [characters_clob] overrides previous : org.hibernate.type.PrimitiveCharacterArrayClobType@6d08a649
+09:05:29,911 INFO  [BasicTypeRegistry] Type registration [materialized_clob] overrides previous : org.hibernate.type.MaterializedClobType@478a4c11
+09:05:29,911 INFO  [BasicTypeRegistry] Type registration [clob] overrides previous : org.hibernate.type.ClobType@5991355b
+09:05:29,912 INFO  [BasicTypeRegistry] Type registration [java.sql.Clob] overrides previous : org.hibernate.type.ClobType@5991355b
+09:05:29,913 INFO  [BasicTypeRegistry] Type registration [wrapper_characters_clob] overrides previous : org.hibernate.type.CharacterArrayClobType@6ef97d01
+09:05:29,913 INFO  [BasicTypeRegistry] Type registration [materialized_blob] overrides previous : org.hibernate.type.MaterializedBlobType@466ba479
+09:05:29,932 INFO  [SessionFactoryObjectFactory] Factory name: persistence.unit:unitName=AvaliacaoEJB.jar#AvaliacaoDS
+09:05:29,932 INFO  [NamingHelper] JNDI InitialContext properties:{java.naming.factory.initial=org.jnp.interfaces.NamingContextFactory, java.naming.factory.url.pkgs=org.jboss.naming:org.jnp.interfaces}
+09:05:29,937 INFO  [SessionFactoryObjectFactory] Bound factory to JNDI name: persistence.unit:unitName=AvaliacaoEJB.jar#AvaliacaoDS
+09:05:29,939 INFO  [NamingHelper] JNDI InitialContext properties:{java.naming.factory.initial=org.jnp.interfaces.NamingContextFactory, java.naming.factory.url.pkgs=org.jboss.naming:org.jnp.interfaces}
+09:05:29,948 INFO  [SessionSpecContainer] Starting jboss.j2ee:jar=AvaliacaoEJB.jar,name=AvaliacaoBean,service=EJB3
+09:05:29,966 INFO  [EJBContainer] STARTED EJB: br.com.fiap.bean.AvaliacaoBean ejbName: AvaliacaoBean
+09:05:30,008 INFO  [JndiSessionRegistrarBase] Binding the following Entries in Global JNDI:
+
+	AvaliacaoBean/remote - EJB3.x Default Remote Business Interface
+	AvaliacaoBean/remote-br.com.fiap.Avaliacao - EJB3.x Remote Business Interface
+
+09:05:30,010 WARN  [TimerServiceContainer] EJBTHREE-2193: using deprecated TimerServiceFactory for restoring timers
+09:05:30,422 INFO  [TomcatDeployment] deploy, ctxPath=/AvaliacaoEJB
+09:05:30,532 INFO  [xnio] XNIO Version 2.1.0.CR2
+09:05:30,542 INFO  [nio] XNIO NIO Implementation Version 2.1.0.CR2
+09:05:30,923 INFO  [remoting] JBoss Remoting version 3.1.0.Beta2
+09:05:31,007 INFO  [TomcatDeployment] deploy, ctxPath=/
+09:05:31,070 INFORMAÇÕES [HornetQServerImpl] trying to deploy queue jms.queue.ExpiryQueue
+09:05:31,098 INFORMAÇÕES [HornetQServerImpl] trying to deploy queue jms.queue.DLQ
+09:05:31,113 INFORMAÇÕES [service] Removing bootstrap log handlers
